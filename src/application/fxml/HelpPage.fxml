@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" styleClass="helpBg" stylesheets="@../css/HelpPage.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.HelpPage">
+   <children>
+      <TextArea id="text" editable="false" layoutX="149.0" layoutY="99.0" prefHeight="522.0" prefWidth="1017.0" scaleShape="false" text="Welcome to Kemu Kupu! Here we will take you through the features of this game.&#10;&#10;There are two types of gameplay; Practice and Scored. &#10;&#10;Before each game, you will first be asked to choose a category of words; there are plenty to choose from so make sure to play a few rounds of the game on different categories!&#10;&#10;During the scored game, you’ll hear a word being said, if you didn’t hear it feel free to click the speaker icon to replay the word as many times as you need. &#10;&#10;Now it’s time to give spelling the word a go! Type in your answer and push enter. You can click on a letter to add or remove a macron.&#10;&#10;If you get the answer RIGHT: a new word will be said. Keep listening and spelling your way&#10; through the game.&#10;&#10;If you get the answer WRONG: don’t worry! The second letter of the word will pop&#10; up to help you out. Give the spelling another go and don’t get&#10; discouraged if you get it wrong, just try the next word out!&#10;&#10;If you really have no idea you can use the “Don’t Know” button, but we recommend giving it &#10;a go first, you never know what you’re capable of until you try. &#10;" wrapText="true">
+         <font>
+            <Font name="OpenDyslexicAlta Bold" size="23.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="menu" layoutX="24.0" layoutY="94.0" mnemonicParsing="false" onAction="#menu" prefHeight="66.0" prefWidth="77.0">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

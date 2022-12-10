@@ -1,0 +1,57 @@
+.menuBg {
+
+    	-fx-background-image: url("../res/topic_selection_background.jpg");
+    }
+
+.button{
+    -fx-border-color: transparent;
+    -fx-background-color: #fbede2;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.choice-box {
+    -fx-font-size: 20;
+    -fx-font-family: "OpenDyslexicAlta";
+}
+
+.choice-box .context-menu {
+    -fx-background-color:  #ffe4cc;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #b25c19;
+    -fx-font-size: 23;
+}
+
+#return {
+    -fx-background-image: url("../res/return_icon.png");
+}
+
+#return:hover {
+    -fx-background-image: url("../res/return_icon_hover.png");
+}
+
+#practice {
+    -fx-background-image: url("../res/practice_default.png");
+}
+
+#practice:hover {
+    -fx-background-image: url("../res/practice_hover.png");
+}
+
+#timed {
+    -fx-background-image: url("../res/timed_default.png");
+}
+
+#timed:hover {
+    -fx-background-image: url("../res/timed_hover.png");
+}
+
+#help {
+    -fx-background-image: url("../res/help_icon.png");
+}
+
+#help:hover {
+    -fx-background-image: url("../res/help_icon_hover.png");
+}

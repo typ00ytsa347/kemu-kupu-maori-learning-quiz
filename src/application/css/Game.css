@@ -1,0 +1,71 @@
+.gameBg {
+	-fx-background-image: url("../res/game_background.jpg");
+}
+
+.quiz-label {
+    -fx-font-size: 45;
+    -fx-cursor: hand;
+    -fx-border-color: white;
+    -fx-font-family: openDyslexicAlta;
+}
+
+.button {
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #fbede2;
+}
+
+#home {
+    -fx-background-image: url("../res/home_default.png");
+}
+
+#home:hover {
+    -fx-background-image: url("../res/home_hover.png");
+}
+
+#listenButton {
+    -fx-background-image: url("../res/audio_icon.png");
+}
+
+#listenButton:hover {
+    -fx-background-image: url("../res/audio_icon_action.png");
+}
+
+#submitButton {
+    -fx-background-image: url("../res/submit_button_default.png");
+}
+
+#submitButton:hover {
+    -fx-background-image: url("../res/submit_button_hover.png");
+}
+
+#nextButton {
+    -fx-background-image: url("../res/menu_button2_default.jpg");
+}
+
+#nextButton:hover {
+    -fx-background-image: url("../res/menu_button2_hover.jpg");
+}
+
+#dontknowButton {
+    -fx-background-image: url("../res/skip_button_default.png");
+}
+
+#dontknowButton:hover {
+    -fx-background-image: url("../res/skip_button_hover.png");
+}
+
+.choice-box {
+    -fx-font-size: 20;
+    -fx-font-family: "OpenDyslexicAlta";
+    -fx-background-color: #f2f4c0;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: #f2f4c0;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #656812;
+}

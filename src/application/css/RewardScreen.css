@@ -1,0 +1,46 @@
+.rewardScreenBg {
+	-fx-background-image: url("../res/reward_background.jpg");
+}
+
+.button{
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #fbede2;
+}
+
+.table-view {
+    -fx-font-family: "OpenDyslexicAlta";
+    -fx-font-size: 20;
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: linear-gradient(#e25d1d 0%, #f1cfa2 100%);
+    -fx-background-radius: 5px 5px 0 0;
+}
+
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+#home {
+    -fx-background-image: url("../res/home_default.png");
+}
+
+#home:hover {
+    -fx-background-image: url("../res/home_hover.png");
+}
+
+#return {
+    -fx-background-image: url("../res/return_icon.png");
+}
+
+#return:hover {
+    -fx-background-image: url("../res/return_icon_hover.png");
+}
