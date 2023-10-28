@@ -5,9 +5,13 @@ Simply execute the run.sh script by entering "./run.sh" which will run the Kēm
 # Main menu
 This is the starting screen. Click on "Play Game" to go to the topic selection screen, or click "Quit" to exit the program. The help button (?) details the function of this game.
 
+![image](https://github.com/typ00ytsa347/kemu-kupu-maori-learning-quiz/assets/79774614/3964a111-a069-4337-bce3-2c2f8b1c31a9)
+
 # Topic selection screen
 Here you can select a topic from one of the choices in the drop down menu. The preset topic is "Colours".
 Click "Practice mode" to have a go at spelling the words, or click "Timed mode" to accept the challenge!
+
+![image](https://github.com/typ00ytsa347/kemu-kupu-maori-learning-quiz/assets/79774614/b83bfb78-37c9-4f6c-9125-940e863c0ef8)
 
 # Game screen
 ## Practice mode
@@ -20,5 +24,9 @@ Click on the audio icon as many times as you'd like to listen to the pronunciati
 ## Timed mode
 After entering the timed mode, you will be spelling words as in the practice mode, however, you're now timed and the score depends on how long you spend on answering each question. There is no "NEXT ->" button and you will move through the five words as fast as you can. Feel free to click the "Skip" button, though no score will be awarded for the word you skip. After answering all 5 questions, you will be directed to the reward screen.
 
+![image](https://github.com/typ00ytsa347/kemu-kupu-maori-learning-quiz/assets/79774614/dcb157b7-eaa3-4c78-8600-9d3696358584)
+
 # Reward screen
 Here you will be presented a reward screen showing your score out of 100. You can view your result which includes the correct spelling, the correctness, the time you spent and the score you got for each word. Click on the return icon to go back to the topic selection screen, or the home icon to go back to the menu screen.
+
+![image](https://github.com/typ00ytsa347/kemu-kupu-maori-learning-quiz/assets/79774614/d9947236-4efc-43ba-aa0c-1bc32aa2cab8)
